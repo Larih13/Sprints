@@ -1,4 +1,4 @@
-# 📌 MVP - Sprint 01
+# MVP - Sprint 01
 
 ## 🎯 Objetivo 
 > Descrever de forma clara qual é o propósito do MVP:  
@@ -69,4 +69,4 @@
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
-* [Volte ao topo](#-📌-MVP-Sprint-01)
+* [Volte ao topo](#MVP-Sprint-01)
