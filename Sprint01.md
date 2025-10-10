@@ -39,12 +39,6 @@ O resultado desta entrega será uma ferramenta consolidada de apoio à decisão,
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
-## 👥 Personas / Usuários-Alvo
-- **Gabriel Alves:** breve descrição, necessidades e dores atendidas  
-- **Larissa:** breve descrição, necessidades e dores atendidas  
-
-![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
-
 ## 🔑 User Stories (Backlog do MVP)
 | Rank  | User Story                                                                 | Prioridade | Estimativa |
 |-----|-----------------------------------------------------------------------------|------------|------------|
@@ -68,29 +62,37 @@ O resultado desta entrega será uma ferramenta consolidada de apoio à decisão,
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📊 Critérios de Aceitação
-- O MVP deve permitir que o usuário [ação principal]  
-- O sistema deve registrar [evento importante]  
-- Métricas coletadas: [exemplo: tempo de resposta, taxa de uso]  
+- A principal ação consiste em criar um painel interativo integrado, reunindo informações sobre frota de veículos, população e mortalidade no trânsito em uma única plataforma visual.  
+- O evento importante é a disponibilização do painel interativo funcional, que permite aos gestores públicos visualizar e analisar de forma consolidada os dados de frota, população e mortalidade no trânsito. 
+- As métricas coletadas para esta etapa podem incluir:
+1.Tempo de resposta do painel — duração para carregar gráficos e mapas após a aplicação de filtros.
+2.Taxa de uso — número de acessos ou interações por usuário no painel.
+3.Cobertura de dados — percentual de estados e anos disponíveis para análise em cada indicador (frota, população, mortalidade).
+4.Taxa de atualização — frequência com que os dados do painel refletem as informações mais recentes das bases oficiais.
+5.Precisão dos indicadores — consistência dos cálculos de mortalidade por 100 mil habitantes e sinistros por 10 mil veículos.
+6.Engajamento dos filtros — quais filtros (estado, ano, tipo de veículo, faixa etária) são mais utilizados pelos usuários.  
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📈 Métricas de Validação
-- Número de usuários que testaram o MVP  
-- Feedback qualitativo (positivo/negativo)  
-- Indicadores de negócio (exemplo: % de adesão, redução de custo, etc.)  
+- Número de usuários que testaram o painel: 5
+- Feedback qualitativo (positivo/negativo): Obtivemos um feedback positivo sobre o painel interativo, estava completo e continha todos os requisitos do cliente. 
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 🚀 Próximos Passos
-- Melhorias planejadas após feedback  
-- Ajustes de usabilidade  
-- Expansão de funcionalidades para próximo incremento  
+- Melhorias planejadas após feedback: Utilização de outros sites para a coleta de informações.
+- Ajustes de usabilidade: melhorias nos botões e interatividade. 
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📂 Anexos / Evidências
-- Prints de tela  
-- Fluxos ou protótipos  
+- Tela 1:
+  <img width="1280" height="720" alt="Design sem nome" src="https://github.com/user-attachments/assets/2506b513-9c4f-4a81-91f9-f8cce4772e26" />
+
+- Tela 2:
+  <img width="1280" height="720" alt="Design sem nome (1)" src="https://github.com/user-attachments/assets/d1407c3a-06b5-4285-aee5-432f5aee64cb" />
+
 - Vídeo (MVP)
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
