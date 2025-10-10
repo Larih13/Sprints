@@ -1,18 +1,41 @@
-# MVP Sprint 01
+# Sprint 01
 
 ## 🎯 Objetivo 
-> Descrever de forma clara qual é o propósito do MVP:  
-- Qual problema resolve?  
-- Qual hipótese será validada?  
+> Orientar a criação de um painel interativo de apoio à tomada de decisões em políticas públicas de segurança e mobilidade no trânsito. A proposta é integrar dados da frota nacional, população, sinistros e mortalidade para possibilitar análises comparativas entre estados, faixas etárias, gêneros e períodos. Com isso, busca-se identificar tendências, avaliar riscos regionais, medir a efetividade de políticas públicas e direcionar ações preventivas voltadas à redução de acidentes e mortes no trânsito.  
+
+- Qual problema resolve?
+problema que será resolvido é a falta de integração e visualização acessível dos dados sobre frota, população, sinistros e mortalidade no trânsito, que hoje estão dispersos em diferentes bases e dificultam análises estratégicas.
+
+- Qual hipótese será validada?
+A hipótese a ser validada é que a integração e análise conjunta dos dados de frota, população, sinistros e mortalidade permite identificar relações diretas entre o crescimento da frota, o perfil demográfico e o aumento (ou redução) dos acidentes e mortes no trânsito.
+
 - Qual valor será entregue ao usuário final?  
+Com o painel interativo proposto, será possível concentrar essas informações em uma única plataforma, permitindo que gestores públicos identifiquem padrões, regiões críticas e tendências de crescimento da frota e dos acidentes, além de avaliar o impacto das políticas de segurança viária de forma mais ágil e baseada em evidências.
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
-## 📝 Descrição da Solução
-> Breve explicação do que será desenvolvido e entregue nesta etapa.  
-- Funcionalidades principais incluídas  
-- Limitações conhecidas  
-- Escopo reduzido (somente o essencial para validar a ideia)  
+## 📝 Solução
+> Nesta etapa será desenvolvido e entregue um painel interativo de visualização de dados, que reunirá informações sobre frota de veículos, população, sinistros e mortalidade no trânsito. O painel permitirá filtrar e comparar dados por estado, ano, tipo de veículo, faixa etária e gênero, apresentando gráficos e mapas dinâmicos para análise de tendências e indicadores, como mortalidade por 100 mil habitantes e sinistros por 10 mil veículos.
+O resultado desta entrega será uma ferramenta consolidada de apoio à decisão, capaz de auxiliar gestores públicos na identificação de padrões, regiões críticas e avaliação do impacto de políticas de segurança viária.  
+
+- Funcionalidades principais incluídas:
+1.Visualização interativa da frota nacional — gráficos e séries temporais que mostram a quantidade de veículos por tipo, ano e estado, com filtros dinâmicos.
+2.Análise demográfica da população — segmentação por estado, faixa etária e gênero, permitindo cruzamento com dados de frota e acidentes.
+3.Painel de mortalidade (DATASUS) — acompanhamento da evolução temporal de óbitos no trânsito, com comparativos por gênero, idade e localização.
+4.Indicadores de mortalidade por 100 mil habitantes — gráficos e mapas comparativos entre estados e séries históricas para identificação de regiões críticas.
+5.Indicadores de sinistros por 10 mil veículos — visualização em mapa interativo e gráficos de evolução anual e regional.
+6.Filtros e comparativos integrados — possibilidade de selecionar estados, anos e variáveis para análises personalizadas e cruzamentos de dados.
+7.Exportação e compartilhamento — geração de relatórios e gráficos para uso em apresentações e planejamento de políticas públicas.
+
+- Limitações conhecidas:
+ Não foi possivel criar filtro de genêro e faixa etária, pois os arquivos csv não se interligam.
+
+- Escopo reduzido:
+1.Visualização básica da frota nacional — gráfico de evolução anual da quantidade total de veículos por tipo e por estado.
+2.Integração com dados populacionais — exibição da população por estado e cálculo da relação veículos por habitante.
+3.Indicador de mortalidade no trânsito (DATASUS) — total de mortes por estado e ano, com cálculo da taxa por 100 mil habitantes.
+4.Mapa comparativo simples — visualização das taxas de mortalidade por estado em um único ano selecionável.
+5.Filtros principais — seleção por estado e ano para atualização dos gráficos e indicadores. 
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
@@ -36,11 +59,11 @@
 ## 📅 Sprint(s) Relacionadas
 | Sprint | Entregas Principais                          | Status   |
 |--------|----------------------------------------------|----------|
-| 01     | [visualização interativa da frota nacional, apresentando quantidade de veículos por tipo e ano, com filtros por estado e comparativos de evolução]  | Concluído|
-| 01     | [dados da população nacional segmentados por estado, ano, faixa etária e gênero]                           | Concluído |
-| 01     | [visualização consolidada da mortalidade do DATASUS, apresentando evolução temporal com comparativos por gênero, idade e localização]                           | Concluído |
-| 01     | [indicadoresde de mortalidade por 100mil habitantes, com gráficos comparativos entre estados e séries temporais]                           | Concluído |
-| 01     | [indicadoresde de sinistros por 10 mil veículos, com comparativos anuais e regionais, apresentados em mapa interativo e gráficos de evolução]                           | Concluído |
+| 01     | visualização interativa da frota nacional, apresentando quantidade de veículos por tipo e ano, com filtros por estado e comparativos de evolução  | Concluído|
+| 01     | dados da população nacional segmentados por estado, ano, faixa etária e gênero                           | Concluído |
+| 01     | visualização consolidada da mortalidade do DATASUS, apresentando evolução temporal com comparativos por gênero, idade e localização                           | Concluído |
+| 01     | indicadoresde de mortalidade por 100mil habitantes, com gráficos comparativos entre estados e séries temporais                           | Concluído |
+| 01     | indicadoresde de sinistros por 10 mil veículos, com comparativos anuais e regionais, apresentados em mapa interativo e gráficos de evolução                           | Concluído |
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
