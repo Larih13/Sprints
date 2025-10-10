@@ -1,6 +1,6 @@
-# 📌 MVP - [Nome do Projeto]
+# 📌 MVP - Sprint 01
 
-## 🎯 Objetivo do MVP
+## 🎯 Objetivo 
 > Descrever de forma clara qual é o propósito do MVP:  
 - Qual problema resolve?  
 - Qual hipótese será validada?  
