@@ -1,4 +1,4 @@
-# MVP - Sprint 01
+# MVP Sprint 01
 
 ## 🎯 Objetivo 
 > Descrever de forma clara qual é o propósito do MVP:  
