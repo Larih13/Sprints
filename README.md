@@ -6,7 +6,7 @@
 - Qual hipótese será validada?  
 - Qual valor será entregue ao usuário final?  
 
----
+----
 
 ## 📝 Descrição da Solução
 > Breve explicação do que será desenvolvido e entregue nesta etapa.  
