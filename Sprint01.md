@@ -17,8 +17,8 @@
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 👥 Personas / Usuários-Alvo
-- **Persona 1:** breve descrição, necessidades e dores atendidas  
-- **Persona 2:** breve descrição, necessidades e dores atendidas  
+- **Gabriel Alves:** breve descrição, necessidades e dores atendidas  
+- **Larissa:** breve descrição, necessidades e dores atendidas  
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
@@ -36,8 +36,11 @@
 ## 📅 Sprint(s) Relacionadas
 | Sprint | Entregas Principais                          | Status   |
 |--------|----------------------------------------------|----------|
-| 01     | [Funcionalidade X, Y]                        | Concluído|
-| 02     | [Funcionalidade Z]                           | Em andamento |
+| 01     | [visualização interativa da frota nacional, apresentando quantidade de veículos por tipo e ano, com filtros por estado e comparativos de evolução]  | Concluído|
+| 01     | [dados da população nacional segmentados por estado, ano, faixa etária e gênero]                           | Concluído |
+| 01     | [visualização consolidada da mortalidade do DATASUS, apresentando evolução temporal com comparativos por gênero, idade e localização]                           | Concluído |
+| 01     | [indicadoresde de mortalidade por 100mil habitantes, com gráficos comparativos entre estados e séries temporais]                           | Concluído |
+| 01     | [indicadoresde de sinistros por 10 mil veículos, com comparativos anuais e regionais, apresentados em mapa interativo e gráficos de evolução]                           | Concluído |
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
