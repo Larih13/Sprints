@@ -1,41 +1,33 @@
 # Sprint 02
 
 ## 🎯 Objetivo 
-> Orientar a criação de um painel interativo de apoio à tomada de decisões em políticas públicas de segurança e mobilidade no trânsito. A proposta é integrar dados da frota nacional, população, sinistros e mortalidade para possibilitar análises comparativas entre estados, faixas etárias, gêneros e períodos. Com isso, busca-se identificar tendências, avaliar riscos regionais, medir a efetividade de políticas públicas e direcionar ações preventivas voltadas à redução de acidentes e mortes no trânsito.  
+> Desenvolver uma plataforma integrada de análise e visualização de dados sobre acidentes de trânsito e frota veicular no Brasil, com base nos dados da PRF (Polícia Rodoviária Federal), para subsidiar a formulação, o monitoramento e a avaliação de políticas públicas de segurança viária e prevenção de acidentes.  
 
 - Qual problema resolve?
-problema que será resolvido é a falta de integração e visualização acessível dos dados sobre frota, população, sinistros e mortalidade no trânsito, que hoje estão dispersos em diferentes bases e dificultam análises estratégicas.
+Este projeto resolve um problema central na gestão pública de trânsito e mobilidade: a dificuldade de transformar grandes volumes de dados dispersos em insights estratégicos acionáveis para a prevenção de acidentes.
 
 - Qual hipótese será validada?
-A hipótese a ser validada é que a integração e análise conjunta dos dados de frota, população, sinistros e mortalidade permite identificar relações diretas entre o crescimento da frota, o perfil demográfico e o aumento (ou redução) dos acidentes e mortes no trânsito.
+A concentração e severidade de acidentes de trânsito estão diretamente correlacionadas com variáveis específicas e mensuráveis — como localização, tipo de via, condições temporais e taxa de motorização — e a identificação clara desses padrões permite a priorização eficaz de intervenções que reduzem sinistros e vítimas.
 
 - Qual valor será entregue ao usuário final?  
-Com o painel interativo proposto, será possível concentrar essas informações em uma única plataforma, permitindo que gestores públicos identifiquem padrões, regiões críticas e tendências de crescimento da frota e dos acidentes, além de avaliar o impacto das políticas de segurança viária de forma mais ágil e baseada em evidências.
+O valor central entregue é: Poder e Clareza para Ação Estratégica.
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📝 Solução
-> Nesta etapa será desenvolvido e entregue um painel interativo de visualização de dados, que reunirá informações sobre frota de veículos, população, sinistros e mortalidade no trânsito. O painel permitirá filtrar e comparar dados por estado, ano, tipo de veículo, faixa etária e gênero, apresentando gráficos e mapas dinâmicos para análise de tendências e indicadores, como mortalidade por 100 mil habitantes e sinistros por 10 mil veículos.
-O resultado desta entrega será uma ferramenta consolidada de apoio à decisão, capaz de auxiliar gestores públicos na identificação de padrões, regiões críticas e avaliação do impacto de políticas de segurança viária.  
+> Será desenvolvida uma plataforma digital para análise de acidentes rodoviários, integrando dados oficiais em painéis interativos. O sistema incluirá visualizações de acidentes, mapas de áreas de risco e indicadores de frota veicular, com filtros por período e localidade.  
 
 - Funcionalidades principais incluídas:
-1.Visualização interativa da frota nacional — gráficos e séries temporais que mostram a quantidade de veículos por tipo, ano e estado, com filtros dinâmicos.
-2.Análise demográfica da população — segmentação por estado, faixa etária e gênero, permitindo cruzamento com dados de frota e acidentes.
-3.Painel de mortalidade (DATASUS) — acompanhamento da evolução temporal de óbitos no trânsito, com comparativos por gênero, idade e localização.
-4.Indicadores de mortalidade por 100 mil habitantes — gráficos e mapas comparativos entre estados e séries históricas para identificação de regiões críticas.
-5.Indicadores de sinistros por 10 mil veículos — visualização em mapa interativo e gráficos de evolução anual e regional.
-6.Filtros e comparativos integrados — possibilidade de selecionar estados, anos e variáveis para análises personalizadas e cruzamentos de dados.
-7.Exportação e compartilhamento — geração de relatórios e gráficos para uso em apresentações e planejamento de políticas públicas.
+Será desenvolvida uma plataforma digital com as seguintes funcionalidades principais: painel interativo de análise de acidentes com filtros por ano, estado e rodovia; mapa de calor para identificação de áreas críticas; indicadores de motorização por estado; sistema de relatórios exportáveis; e ferramentas de análise comparativa entre regiões. A plataforma integrará dados da PRF, DENATRAN e IBGE em uma interface web unificada, fornecendo insights para políticas públicas de segurança viária.
 
 - Limitações conhecidas:
- Não foi possivel criar filtro de genêro e faixa etária, pois os arquivos csv não se interligam.
-
+ 
 - Escopo reduzido:
-1.Visualização básica da frota nacional — gráfico de evolução anual da quantidade total de veículos por tipo e por estado.
-2.Integração com dados populacionais — exibição da população por estado e cálculo da relação veículos por habitante.
-3.Indicador de mortalidade no trânsito (DATASUS) — total de mortes por estado e ano, com cálculo da taxa por 100 mil habitantes.
-4.Mapa comparativo simples — visualização das taxas de mortalidade por estado em um único ano selecionável.
-5.Filtros principais — seleção por estado e ano para atualização dos gráficos e indicadores. 
+Painel interativo com visualização de dados de acidentes da PRF, permitindo:
+*Filtragem básica por período e localização;
+*Visualização de tipos de acidentes e gravidade;
+*Mapa simplificado de pontos críticos;
+*Exportação de relatórios básicos.
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
@@ -51,49 +43,44 @@ O resultado desta entrega será uma ferramenta consolidada de apoio à decisão,
 ## 📅 Sprint(s) Relacionadas
 | Sprint | Entregas Principais                          | Status   |
 |--------|----------------------------------------------|----------|
-| 01     | visualização interativa da frota nacional, apresentando quantidade de veículos por tipo e ano, com filtros por estado e comparativos de evolução  | Concluído|
-| 01     | dados da população nacional segmentados por estado, ano, faixa etária e gênero                           | Concluído |
-| 01     | visualização consolidada da mortalidade do DATASUS, apresentando evolução temporal com comparativos por gênero, idade e localização                           | Concluído |
-| 01     | indicadoresde de mortalidade por 100mil habitantes, com gráficos comparativos entre estados e séries temporais                           | Concluído |
-| 01     | indicadoresde de sinistros por 10 mil veículos, com comparativos anuais e regionais, apresentados em mapa interativo e gráficos de evolução                           | Concluído |
+| 02     | integrar dados de sinistros da PRF em gráficos e tabelas mostrando tipos de acidentes, gravidade, número de vítimas e óbitos, com filtros por ano, estado e rodovia  | Concluído|
+| 02     | mapas e gráficos de tendência por estado e município                          | Concluído |
+| 02     |indicadoresde de taxa de motorização, relacionando frota de veículos com população por estado e evolução ao longo dos anos                           | Concluído |
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📊 Critérios de Aceitação
-- A principal ação consiste em criar um painel interativo integrado, reunindo informações sobre frota de veículos, população e mortalidade no trânsito em uma única plataforma visual.  
-- O evento importante é a disponibilização do painel interativo funcional, que permite aos gestores públicos visualizar e analisar de forma consolidada os dados de frota, população e mortalidade no trânsito. 
+- O painel deve permitir que o usuário identifique visualmente os pontos e trechos críticos de acidentes nas rodovias federais através de um mapa interativo, com filtros por período e tipo de acidente, para priorização de ações de prevenção. A funcionalidade inclui visualização da concentração de acidentes, filtros básicos por data e severidade, e identificação dos locais com maior incidência.  
+- O sistema deve registrar todos os acidentes com vítimas graves ou fatais nas rodovias federais, capturando automaticamente dados como localização exata, tipo de acidente, condições climáticas, veículos envolvidos e número de vítimas. Este registro deve incluir a gravidade do evento (feridos graves e óbitos) e gerar um alerta para a equipe de análise sempre que um novo caso crítico for identificado, permitindo o monitoramento em tempo real dos pontos mais perigosos da malha viária. 
 - As métricas coletadas para esta etapa podem incluir:
-1.Tempo de resposta do painel — duração para carregar gráficos e mapas após a aplicação de filtros.
-2.Taxa de uso — número de acessos ou interações por usuário no painel.
-3.Cobertura de dados — percentual de estados e anos disponíveis para análise em cada indicador (frota, população, mortalidade).
-4.Taxa de atualização — frequência com que os dados do painel refletem as informações mais recentes das bases oficiais.
-5.Precisão dos indicadores — consistência dos cálculos de mortalidade por 100 mil habitantes e sinistros por 10 mil veículos.
-6.Engajamento dos filtros — quais filtros (estado, ano, tipo de veículo, faixa etária) são mais utilizados pelos usuários.  
+* Métricas de Acidentes;
+* Métricas de Frequência;
+* Métricas de Localização;
+* Métricas de Eficiência;
+* Métricas de Impacto.
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📈 Métricas de Validação
 - Número de usuários que testaram o painel: 5
-- Feedback qualitativo (positivo/negativo): Obtivemos um feedback positivo sobre o painel interativo, estava completo e continha todos os requisitos do cliente. 
+- Feedback qualitativo (positivo/negativo): 
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 🚀 Próximos Passos
-- Melhorias planejadas após feedback: Utilização de outros sites para a coleta de informações.
-- Ajustes de usabilidade: melhorias nos botões e interatividade. 
+- Melhorias planejadas após feedback: 
+- Ajustes de usabilidade:  
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 ## 📂 Anexos / Evidências
 - Tela 1:
-  <img width="1280" height="720" alt="Design sem nome" src="https://github.com/user-attachments/assets/2506b513-9c4f-4a81-91f9-f8cce4772e26" />
 
-- Tela 2:
-  <img width="1280" height="720" alt="Design sem nome (1)" src="https://github.com/user-attachments/assets/d1407c3a-06b5-4285-aee5-432f5aee64cb" />
+   
 
 - Vídeo (MVP)
 
-[Assistir](https://www.canva.com/design/DAG3UNOUz2o/qlFJZi0deNN8fF5D9AOnSA/edit?utm_content=DAG3UNOUz2o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Assistir](https://www.canva.com/design/DAG3UiIFj4M/l0_YSCom7rQMtr1SnxpzEg/edit?utm_content=DAG3UiIFj4M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
