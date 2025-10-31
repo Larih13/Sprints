@@ -53,11 +53,11 @@ Painel interativo com visualização de dados de acidentes da PRF, permitindo:
 - O painel deve permitir que o usuário identifique visualmente os pontos e trechos críticos de acidentes nas rodovias federais através de um mapa interativo, com filtros por período e tipo de acidente, para priorização de ações de prevenção. A funcionalidade inclui visualização da concentração de acidentes, filtros básicos por data e severidade, e identificação dos locais com maior incidência.  
 - O sistema deve registrar todos os acidentes com vítimas graves ou fatais nas rodovias federais, capturando automaticamente dados como localização exata, tipo de acidente, condições climáticas, veículos envolvidos e número de vítimas. Este registro deve incluir a gravidade do evento (feridos graves e óbitos) e gerar um alerta para a equipe de análise sempre que um novo caso crítico for identificado, permitindo o monitoramento em tempo real dos pontos mais perigosos da malha viária. 
 - As métricas coletadas para esta etapa podem incluir:
-* Métricas de Acidentes;
-* Métricas de Frequência;
-* Métricas de Localização;
-* Métricas de Eficiência;
-* Métricas de Impacto.
+1. Métricas de Acidentes;
+2. Métricas de Frequência;
+3. Métricas de Localização;
+4. Métricas de Eficiência;
+5. Métricas de Impacto.
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
