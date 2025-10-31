@@ -80,7 +80,7 @@ Painel interativo com visualização de dados de acidentes da PRF, permitindo:
 
 - Vídeo (MVP)
 
-[Assistir](https://www.canva.com/design/DAG3UiIFj4M/l0_YSCom7rQMtr1SnxpzEg/edit?utm_content=DAG3UiIFj4M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![Assistir](https://www.canva.com/design/DAG3UiIFj4M/l0_YSCom7rQMtr1SnxpzEg/edit?utm_content=DAG3UiIFj4M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
