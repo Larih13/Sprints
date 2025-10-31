@@ -95,6 +95,8 @@ O resultado desta entrega será uma ferramenta consolidada de apoio à decisão,
 
 - Vídeo (MVP)
 
+(Assista)https://www.canva.com/design/DAG3UNOUz2o/qlFJZi0deNN8fF5D9AOnSA/edit?utm_content=DAG3UNOUz2o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ![Linha RGB](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
 
 * [Volte ao topo](#MVP-Sprint-01)
